@@ -1,0 +1,16 @@
+age =  18
+heught = 1.68
+complex_num = 3i 
+
+# Area of triangle calculator
+Base = input('Enter base of triangle: ')
+Height = input('Enter height of triangle: ')
+Area = int(Base) * int(Height)
+print('The area of the traingle is ', Area)
+
+# Perimeter of triangle calculator
+a = input('Enter side 'a' of triangle: ')
+b = input('Enter side 'b' of triangle: ')
+c = input('Enter side 'c' of triangle: ')
+Perimeter = sum(int(a), int(b), int(c))
+print('The perimeter of the traingle is ', Perimeter)
